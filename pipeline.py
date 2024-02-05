@@ -27,6 +27,7 @@ from nltk.tokenize import word_tokenize
 #     tokenizer = BertTokenizer.from_pretrained('./bert_fine_tuned/bert_tokens')
 #     model = BertForSequenceClassification.from_pretrained(model_name)
 #     return model, tokenizer
+@st.cache_resource
 def load_model():
     model_name = "azrai99/bert-skills-extraction"
     model = BertForSequenceClassification.from_pretrained(model_name)
