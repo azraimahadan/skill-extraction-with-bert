@@ -5,7 +5,7 @@ import time
 
 model, tokenizer = load_model()
 
-st.title("Skills Extraction from Job post")
+st.title("Skills Extraction from Job post using BERT")
 
 # Input text area for user to input description
 user_input = st.text_area("Enter the job description:", "")
