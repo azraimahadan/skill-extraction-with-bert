@@ -2,4 +2,3 @@ nltk
 torch
 contractions
 transformers
-zipfile
