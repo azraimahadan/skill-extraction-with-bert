@@ -8,8 +8,8 @@ from transformers import BertTokenizer, BertForSequenceClassification
 import contractions
 import re 
 import nltk
-from nltk.corpus import stopwords
-stop_words = set(stopwords.words('english'))
+# from nltk.corpus import stopwords
+# stop_words = set(stopwords.words('english'))
 from nltk.tokenize import word_tokenize
 
 
