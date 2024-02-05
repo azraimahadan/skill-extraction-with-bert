@@ -2,7 +2,7 @@ import streamlit as st
 from pipeline import get_predictions , load_model
 import time
 
-
+@st.cache(ttl=24*3600)
 model, tokenizer = load_model()
 
 st.title("Skills Extraction from Job descriptions with BERT")
